@@ -19,7 +19,9 @@ html {
 
 body {
 	background-image: url("https://i.ytimg.com/vi/sUtS52lqL5w/maxresdefault.jpg"),
-	
+	blur-me {
+	  filter: blur(20px);
+	}
   	font: 18px/1.4 $helvetica;
  	 color: #ccff33;
 } 
