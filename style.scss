@@ -19,7 +19,9 @@ html {
 
 body {
 	background-image: url("https://i.ytimg.com/vi/sUtS52lqL5w/maxresdefault.jpg"}
-	 filter: hue-rotate(180deg););
+	.blur-me {
+  filter: blur(20px);
+}
 }	
 //linear-gradient(to right, black 0%, white 100%),
 img{
