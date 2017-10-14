@@ -18,14 +18,17 @@ html {
 }
 
 body {
-	background-image: url("https://i.ytimg.com/vi/sUtS52lqL5w/maxresdefault.jpg"),
-	blur-me {
-	  filter: blur(20px);
-	}
+	background-image: url("https://i.ytimg.com/vi/sUtS52lqL5w/maxresdefault.jpg")
+	
   	font: 18px/1.4 $helvetica;
  	 color: #ccff33;
 } 
 
+/*
+blur-me {
+	  filter: blur(20px);
+	}
+*/
 .container {
   margin: 0 auto;
   max-width: 740px;
