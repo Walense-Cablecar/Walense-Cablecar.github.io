@@ -18,9 +18,11 @@ html {
 }
 
 body {
-	background-image: linear-gradient(to right, black 0%, white 100%), url("https://i.ytimg.com/vi/sUtS52lqL5w/maxresdefault.jpg");
+	background-image:  url("https://i.ytimg.com/vi/sUtS52lqL5w/maxresdefault.jpg");
 }
-/*	img{
+/*	
+linear-gradient(to right, black 0%, white 100%),
+img{
 	-webkit-filter: hue-rotate(180deg);
     filter: hue-rotate(180deg);
 	background-color: #3333ff;
