@@ -52,7 +52,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: oblique;
   color:#00ff00;
   font-weight: bold;
-	text-shadow: 0 0 6px #cc0000, 0 0 10px #0000FF;
+  #grad {
+  text: red; /* For browsers that do not support gradients */
+  text: -webkit-radial-gradient(red, yellow, green); /* Safari 5.1 to 6.0 */
+  text: -o-radial-gradient(red, yellow, green); /* For Opera 11.6 to 12.0 */
+  text: -moz-radial-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
+  text: radial-gradient(red, yellow, green); /* Standard syntax */	text-shadow: 0 0 6px #cc0000, 0 0 10px #0000FF;
 
   line-height: 1.7;
   margin: 1em 0 15px;
