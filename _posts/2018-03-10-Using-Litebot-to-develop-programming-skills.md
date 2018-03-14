@@ -1,5 +1,5 @@
 ---
-title: Using Litebot to develop programming skills
+title: Using Lightbot to develop programming skills
 layout: post
 author: yotam.margoninski-morrag
 permalink: /using-litebot-to-develop-programming-skills/
